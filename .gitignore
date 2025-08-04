@@ -1,0 +1,74 @@
+# Xcode & Swift
+.build/
+.swiftpm/
+*.xcodeproj
+*.xcworkspace
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+.build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Screensaver build artifacts
+Screensaver/Build/*.saver/Contents/MacOS/*
+Screensaver/Build/*.saver/Contents/MacOS/*.tmp
+Screensaver/Build/*.saver/Contents/MacOS/*.abi.json
+Screensaver/Build/*.saver/Contents/MacOS/*.swiftdoc
+Screensaver/Build/*.saver/Contents/MacOS/*.swiftmodule
+Screensaver/Build/*.saver/Contents/MacOS/*.swiftsourceinfo
+
+# Keep the Info.plist but ignore compiled binaries
+!Screensaver/Build/*.saver/Contents/Info.plist
+
+# Application bundle binaries (keep structure, ignore compiled code)
+CountdownWallpaper.app/Contents/MacOS/CountdownWallpaper
+!CountdownWallpaper.app/Contents/Info.plist
+!CountdownWallpaper.app/Contents/Resources/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Personal notes (if any)
+notes.md
+todo.md
+scratch.md
